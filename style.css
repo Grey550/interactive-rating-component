@@ -9,7 +9,8 @@ body {
   font-family: "Overpass", sans-serif;
   font-style: normal;
 }
-.ratings-container {
+.ratings-container, 
+.feedback-container {
   width: 90%;
   max-width: 375px;
   height: 360px;
@@ -74,4 +75,11 @@ button {
   font-weight: 700;
   letter-spacing: 1.867px; 
   text-transform: uppercase;
+}
+.feedback-container {
+  text-align: center;
+}
+.feedback-container p:first-child {
+  border-radius: 15px;
+  color: #FC7614;
 }
