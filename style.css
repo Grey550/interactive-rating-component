@@ -78,8 +78,29 @@ button {
 }
 .feedback-container {
   text-align: center;
+  margin-top: 20px;
 }
-.feedback-container p:first-child {
+.feedback-container h4 {
+  margin-top: 10px;
   border-radius: 15px;
   color: #FC7614;
+  margin-bottom: 20px;
+  background-color: #262E38;
+  text-align: center;
+  width: 65%;
+  padding:8px;
+  margin-left: 50px;
+}
+.feedback-container h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.feedback-container p {
+  color: #969FAD;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  margin-top: 8px;
 }
