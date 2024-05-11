@@ -177,9 +177,13 @@ body {
   .ratings-container ul {
     width: 120%;
   }
+  #ratings-number #ratingsButton {
+    padding: 10px;
+    text-align: center;
+  }
   #ratings-number li {
     margin-right: 20px;
-    text-align: center;
+    
   }
   #submitButton {
     width: 300px;
@@ -187,6 +191,6 @@ body {
     margin-top: 12px;
   }
   #buttonText {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 }
