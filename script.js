@@ -1,13 +1,15 @@
-let ratings = null;
+let selectedRating = null;
 
-function selectedRating(rating){
-  let selectedRating = rating;
+function selectRating(rating) {
+  selectedRating = rating;
 }
-function submit(){
+function submit() {
   if (selectedRating !== null) {
     document.querySelector(".ratings-container").style.display = "none";
     document.querySelector(".feedback-container").style.display = "block";
     document.getElementById("ratings").textContent = `You selected ${selectedRating} out of 5`;
   }
- 
+  else {
+    document.getElementById("buttonText").textContent = `Please select a rating.!`;
+  }
 }
