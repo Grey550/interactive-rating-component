@@ -19,9 +19,9 @@ body {
   max-width: 375px;
   height: 360px;
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 0;
   background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
-  padding: 30px;
+  padding: 25px;
 }
 .ratings-container figure {
   width: 40px;
@@ -146,4 +146,16 @@ body {
   .ratings-container ul {
     width: 120%;
   }
+}
+@media screen and (max-width: 480px) {
+ .content {
+   margin-left: 10px;
+   padding-top: 20px;
+ }
+ .feedback-content {
+   margin-top: 30px;
+ }
+}
+@media screen and (max-width: 1440px) {
+  
 }
