@@ -15,7 +15,7 @@ body {
 }
 .ratings-container, 
 .feedback-container {
-  width: 90%;
+  width: 100%;
   max-width: 375px;
   height: 360px;
   border-radius: 15px;
@@ -130,12 +130,20 @@ body {
   background-color: #fff;
   color: #FC7614;
 }
+#ratings {
+  width: 70%;
+}
 
 @media screen and (max-width: 360px) {
   .ratings-container, 
   .feedback-container {
     width: 100%;
     height: 360px;
-    
+  }
+  #ratings {
+    width: 68%;
+  }
+  .ratings-container ul {
+    width: 120%;
   }
 }
