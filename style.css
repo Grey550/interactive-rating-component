@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 .ratings-container, 
 .feedback-container {
@@ -192,6 +193,6 @@ body {
     margin-top: 8px;
   }
   #buttonText {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 }
