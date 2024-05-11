@@ -188,9 +188,9 @@ body {
   #submitButton {
     width: 300px;
     height: 45px; 
-    margin-top: 12px;
+    margin-top: 8px;
   }
   #buttonText {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
