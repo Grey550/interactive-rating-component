@@ -8,6 +8,10 @@ body {
   padding: 20px;
   font-family: "Overpass", sans-serif;
   font-style: normal;
+  margin-top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .ratings-container, 
 .feedback-container {
@@ -50,7 +54,7 @@ body {
   margin-top: 20px;
 }
  #submitButton {
-  width: 279px;
+  width: 270px;
   height: 45px;
   border-radius: 22.5px;
   background-color:#FC7614;
@@ -98,7 +102,7 @@ body {
 }
 #ratings-number li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 #ratingsButton {
   display: block; 
@@ -125,4 +129,13 @@ body {
 #submitButton:active {
   background-color: #fff;
   color: #FC7614;
+}
+
+@media screen and (max-width: 360px) {
+  .ratings-container, 
+  .feedback-container {
+    width: 100%;
+    height: 360px;
+    
+  }
 }
