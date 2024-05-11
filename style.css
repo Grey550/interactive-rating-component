@@ -157,5 +157,32 @@ body {
  }
 }
 @media screen and (max-width: 1440px) {
-  
+  body {
+    width: 100%;
+    max-width: 456px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .content {
+   margin-left: 10px;
+   padding-top: 20px;
+   padding: 0;
+  }
+  .feedback-content {
+   margin-top: 30px;
+  }
+  .ratings-container ul {
+    width: 120%;
+  }
+  #ratings-number li {
+  margin-right: 20px;
+  }
+  #submitButton {
+  width: 300px;
+  height: 45px; 
+  margin-top: 15px;
+  }
 }
