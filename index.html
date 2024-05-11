@@ -20,18 +20,17 @@
     <p>Please let us know how we did with your support request. All feedback is appreciated 
       to help us improve our offering!</p>
       <ul id="ratings-number">
-        <li><button onclick="selectRating(1)">1</button></li>
-        <li><button onclick="selectRating(2)">2</button></li>
-        <li><button onclick="selectRating(3)">3</button></li>
-      <li><button onclick="selectRating(4)">4</button></li>
-        <li><button onclick="selectRating(5)">5</button></li>
+        <li><button id="ratingsButton" onclick="selectRating(1)">1</button></li>
+        <li><button id="ratingsButton" onclick="selectRating(2)">2</button></li>
+        <li><button id="ratingsButton" onclick="selectRating(3)">3</button></li>
+      <li><button id="ratingsButton" onclick="selectRating(4)">4</button></li>
+        <li><button id="ratingsButton" onclick="selectRating(5)">5</button></li>
       </ul>
      <div class="button-container">
        <button id="submitButton" onclick="submit()">Submit</button>
+       <p id="buttonText"></p>
      </div>
   </div>
-
-  
   <div class="feedback-container" style="display: none">
    <img src="./images/illustration-thank-you.svg"/>
     <h4 id="ratings"></h4>
@@ -39,7 +38,6 @@
     <p>We appreciate you taking the time to give a rating. If you ever need more support, 
       don’t hesitate to get in touch!</p>
  </div>
-
 </main>
 <script src="./script.js"></script>
 </body>
