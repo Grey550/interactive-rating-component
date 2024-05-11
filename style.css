@@ -178,11 +178,15 @@ body {
     width: 120%;
   }
   #ratings-number li {
-  margin-right: 20px;
+    margin-right: 20px;
+    line-height: 18px;
   }
   #submitButton {
-  width: 300px;
-  height: 45px; 
-  margin-top: 15px;
+    width: 300px;
+    height: 45px; 
+    margin-top: 12px;
+  }
+  #buttonText {
+    margin-bottom: 8px;
   }
 }
