@@ -46,26 +46,10 @@ body {
   list-style: none;
   margin-top: 12px;
 }
-.ratings-container ul > li {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  border-radius: 50%;
-  border: none;
-  margin-right: 10px;
-  background-color: #262E38; 
-  color: #7C8798;
-  font-size: 14px;
-  font-weight: 700;
-  /**line-height: 50px;**/
-  /**letter-spacing: 0.175px;**/
-  padding: 15px;
-}
 .button-container {
   margin-top: 20px;
 }
-button {
+ #submitButton {
   width: 279px;
   height: 45px;
   border-radius: 22.5px;
@@ -104,4 +88,41 @@ button {
   font-weight: 400;
   line-height: 22px; 
   margin-top: 8px;
+}
+#buttonText {
+  margin-top: 20px;
+  text-align: center;
+  color: #FC7614;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+#ratings-number li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#ratingsButton {
+  display: block; 
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  background-color: #262E38; 
+  color: #7C8798;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px;
+  cursor: pointer;
+}
+#ratingsButton:active {
+  background-color: #7C8798 ;
+  color: #fff;
+}
+#ratingsButton:hover {
+  background-color: #FC7614;
+  color: #fff;
+}
+#submitButton:active {
+  background-color: #fff;
+  color: #FC7614;
 }
