@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://grey550.github.io/interactive-rating-component/)
+- Live Site URL: [https://grey550.github.io/interactive-rating-component/](https://grey550.github.io/interactive-rating-component/)
 
 
 ### Built with
