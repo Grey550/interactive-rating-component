@@ -152,10 +152,10 @@ body {
 @media screen and (min-width: 480px) {
  .content {
    margin-left: 10px;
-   padding-top: 20px;
+    padding-top: 20px;
   }
  .feedback-content {
-   margin-top: 30px;
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 1440px) {
