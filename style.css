@@ -173,6 +173,9 @@ body {
     padding-top: 20px;
     padding: 0;
   }
+  .content p {
+    width: 300px;
+  }
   .feedback-content {
     margin-top: 30px;
   }
